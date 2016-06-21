@@ -12,6 +12,16 @@
         android:layout_height="wrap_content"
         layout="@layout/header" />
 
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="@string/selcat"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content" 
@@ -24,6 +34,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:contentDescription="@string/image"
+            android:onClick="setHotel"
             android:src="@drawable/button_hotel" />
 
         <ImageView
@@ -39,6 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:contentDescription="@string/image"
+            android:onClick="setNegocio"
             android:src="@drawable/button_store" />
         
         <ImageView
@@ -54,6 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:contentDescription="@string/image"
+            android:onClick="setCarro"
             android:src="@drawable/button_transport" />
 
     </LinearLayout>
@@ -63,9 +76,10 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
         android:contentDescription="@string/image"
-        android:src="@drawable/button_community"
-        android:layout_marginBottom="10dp" />
+        android:onClick="setComunidad"
+        android:src="@drawable/button_community" />
 
     <EditText
         android:id="@+id/txtemail"
@@ -115,8 +129,8 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="@string/accept"
-        android:textColor="#ffffff"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff" />
 
     <ImageView
         android:id="@+id/imageView7"

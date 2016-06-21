@@ -17,6 +17,13 @@ public class User {
 		this.password = password;
 		this.category = category;
 	}
+	
+	public User(String email, String password, String category) {
+		super();
+		this.email = email;
+		this.password = password;
+		this.category = category;
+	}
 
 	// --------------------------------------------------------------------
 	// Setters and Getters
