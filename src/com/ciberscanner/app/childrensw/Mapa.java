@@ -45,7 +45,7 @@ public class Mapa extends FragmentActivity implements LocationListener {
 		// create marker
 		MarkerOptions markerrojo = new MarkerOptions().position(new LatLng(21.152233, -86.854812)).title("50 reportes");
 		
-		MarkerOptions markeramarillo = new MarkerOptions().position(new LatLng(21.185469, -86.809275)).title(" 5 reportes");
+		MarkerOptions markeramarillo = new MarkerOptions().position(new LatLng(17.905961, -93.634899)).title(" 5 reportes");
 		
 		MarkerOptions markernaranja = new MarkerOptions().position(new LatLng(18.060088, -95.132130)).title("20 reportes");
 

@@ -32,7 +32,7 @@ public class Inicio extends Activity {
 				registro.setImageResource(R.drawable.button_account);
 				registro.setOnClickListener(new View.OnClickListener() {
 					public void onClick(View v) {
-
+						gotoCuenta();
 					}
 				});
 			}
@@ -72,6 +72,13 @@ public class Inicio extends Activity {
 	//
 	public void gotoRegistro() {
 		Intent inicio = new Intent(this, Registro.class);
+		startActivity(inicio);
+	}
+
+	// --------------------------------------------------------------------
+	//
+	public void gotoCuenta() {
+		Intent inicio = new Intent(this, Cuenta.class);
 		startActivity(inicio);
 	}
 

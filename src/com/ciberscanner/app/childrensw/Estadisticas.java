@@ -5,11 +5,13 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Estadisticas extends Activity {
 	// --------------------------------------------------------------------
 	// Variables
 	private TextView titulo;
+	private ConstrolUser cu;
 
 	// --------------------------------------------------------------------
 	// Constructor
@@ -20,6 +22,8 @@ public class Estadisticas extends Activity {
 
 		titulo = (TextView) findViewById(R.id.txt_title);
 		titulo.setText("Estadisticas");
+		cu = new ConstrolUser(this);
+
 	}
 
 	// --------------------------------------------------------------------
@@ -37,5 +41,19 @@ public class Estadisticas extends Activity {
 	}
 	// --------------------------------------------------------------------
 	//
+
+	// --------------------------------------------------------------------
+	//
+	public void gotoCuenta() {
+
+		if (!cu.getUsuario().getEmail().isEmpty()) {
+			Intent inicio = new Intent(this, Cuenta.class);
+			startActivity(inicio);
+		} else {
+			Toast.makeText(getApplicationContext(), "Solo usuarios registrados pueden entrar a esta sección",
+					Toast.LENGTH_LONG).show();
+		}
+
+	}
 
 }

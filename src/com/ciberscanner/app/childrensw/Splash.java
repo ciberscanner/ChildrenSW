@@ -1,15 +1,19 @@
 package com.ciberscanner.app.childrensw;
 
+import java.util.Random;
+
 import android.app.Activity;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.SystemClock;
+import android.util.Log;
+import android.view.View;
 
 public class Splash extends Activity {
 	// --------------------------------------------------------------------
 	// Variables
-	
+	private View view;
 	// --------------------------------------------------------------------
 	// Constructor
 	@Override
@@ -17,6 +21,24 @@ public class Splash extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_splash);
 		new ProgressClass().execute();
+		view=(View)findViewById(R.id.vista);	
+				
+		Random r = new Random();
+		int i1 = r.nextInt(3);
+		
+		Log.v("Valor",""+ i1);
+		
+		switch(i1){
+		case 0:
+			view.setBackgroundResource(R.drawable.sale1);
+			break;
+		case 1:
+			view.setBackgroundResource(R.drawable.sale2);
+			break;
+		case 2:
+			view.setBackgroundResource(R.drawable.sale3);
+			break;
+		}
 	}
 
 	// --------------------------------------------------------------------

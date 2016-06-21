@@ -46,9 +46,10 @@
             android:id="@+id/imgaporte"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:contentDescription="@string/image"
-            android:src="@drawable/button_mycontribution"
-            android:layout_weight="1"  />
+            android:onClick="gotoCuenta"
+            android:src="@drawable/button_mycontribution" />
 
     </LinearLayout>
 

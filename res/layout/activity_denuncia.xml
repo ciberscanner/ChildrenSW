@@ -53,7 +53,7 @@
         android:textColor="#ffffff" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/txtmensajes"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/description_box"
@@ -72,8 +72,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
         android:contentDescription="@string/denunciar"
-        android:src="@drawable/button_send"
-        android:layout_marginTop="5dp" />
+        android:onClick="send"
+        android:src="@drawable/button_send" />
 
 </LinearLayout>
