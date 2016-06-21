@@ -11,39 +11,71 @@ public final class R {
     public static final class attr {
     }
     public static final class drawable {
-        public static final int background=0x7f020000;
-        public static final int background_inicio=0x7f020001;
-        public static final int button_i=0x7f020002;
-        public static final int button_indicators=0x7f020003;
-        public static final int button_questions=0x7f020004;
-        public static final int button_register=0x7f020005;
-        public static final int button_report=0x7f020006;
-        public static final int button_separator=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int splash2=0x7f020009;
+        public static final int arrow_back=0x7f020000;
+        public static final int arrow_left=0x7f020001;
+        public static final int arrow_right=0x7f020002;
+        public static final int background=0x7f020003;
+        public static final int background_inicio=0x7f020004;
+        public static final int bg_red=0x7f020005;
+        public static final int button_i=0x7f020006;
+        public static final int button_indicators=0x7f020007;
+        public static final int button_map=0x7f020008;
+        public static final int button_mycity=0x7f020009;
+        public static final int button_mycontribution=0x7f02000a;
+        public static final int button_mycountry=0x7f02000b;
+        public static final int button_photo=0x7f02000c;
+        public static final int button_questions=0x7f02000d;
+        public static final int button_register=0x7f02000e;
+        public static final int button_report=0x7f02000f;
+        public static final int button_send=0x7f020010;
+        public static final int button_separator=0x7f020011;
+        public static final int button_separator2=0x7f020012;
+        public static final int button_separator_red=0x7f020013;
+        public static final int button_theworld=0x7f020014;
+        public static final int description_box=0x7f020015;
+        public static final int ic_launcher=0x7f020016;
+        public static final int selector=0x7f020017;
+        public static final int splash2=0x7f020018;
+        public static final int statistics=0x7f020019;
+        public static final int text_description=0x7f02001a;
+        public static final int text_photo=0x7f02001b;
+        public static final int title_report=0x7f02001c;
+        public static final int title_statistics=0x7f02001d;
     }
     public static final class id {
-        public static final int imageView1=0x7f060000;
-        public static final int imageView2=0x7f060001;
-        public static final int imageView3=0x7f060002;
-        public static final int imageView4=0x7f060005;
-        public static final int imageView5=0x7f060004;
-        public static final int imageView6=0x7f060003;
-        public static final int imageView7=0x7f060006;
+        public static final int imageView1=0x7f060004;
+        public static final int imageView2=0x7f060005;
+        public static final int imageView3=0x7f060006;
+        public static final int imageView4=0x7f060009;
+        public static final int imageView5=0x7f060008;
+        public static final int imageView6=0x7f060007;
+        public static final int imageView7=0x7f06000a;
+        public static final int imgaporte=0x7f060003;
+        public static final int imgback=0x7f06000b;
+        public static final int imgciudad=0x7f060000;
+        public static final int imgmundo=0x7f060002;
+        public static final int imgpais=0x7f060001;
+        public static final int txt_title=0x7f06000c;
     }
     public static final class layout {
-        public static final int activity_inicio=0x7f030000;
-        public static final int activity_splash=0x7f030001;
+        public static final int activity_denuncia=0x7f030000;
+        public static final int activity_estadistica=0x7f030001;
+        public static final int activity_inicio=0x7f030002;
+        public static final int activity_splash=0x7f030003;
+        public static final int header=0x7f030004;
+        public static final int header_blue=0x7f030005;
     }
     public static final class string {
         public static final int Indicadores=0x7f040007;
         public static final int app_name=0x7f040000;
+        public static final int back=0x7f040008;
         public static final int denunciar=0x7f040003;
         public static final int hello_world=0x7f040001;
         public static final int image=0x7f040002;
         public static final int informacion=0x7f040004;
         public static final int preguntas=0x7f040005;
         public static final int registro=0x7f040006;
+        public static final int title=0x7f040009;
     }
     public static final class style {
         /** 

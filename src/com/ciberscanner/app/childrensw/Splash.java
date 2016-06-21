@@ -7,18 +7,19 @@ import android.os.Bundle;
 import android.os.SystemClock;
 
 public class Splash extends Activity {
-	//--------------------------------------------------------------------
-	//Variables
-	//--------------------------------------------------------------------
-		//
-
+	// --------------------------------------------------------------------
+	// Variables
+	
+	// --------------------------------------------------------------------
+	// Constructor
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_splash);
 		new ProgressClass().execute();
 	}
-	//--------------------------------------------------------------------
+
+	// --------------------------------------------------------------------
 	//
 	class ProgressClass extends AsyncTask<String, String, String> {
 		@Override
@@ -44,12 +45,13 @@ public class Splash extends Activity {
 			gotoActivity();
 		}
 	}
-	//--------------------------------------------------------------------
-		//
-	private void gotoActivity(){
+
+	// --------------------------------------------------------------------
+	//
+	private void gotoActivity() {
 		Intent inicio = new Intent(this, Inicio.class);
 		startActivity(inicio);
 		finish();
-		
+
 	}
 }

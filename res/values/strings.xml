@@ -9,5 +9,7 @@
     <string name="preguntas">Preguntas</string>
     <string name="registro">Registro</string>
     <string name="Indicadores">Indicadores</string>
+    <string name="back">Atrás</string>
+    <string name="title">Title</string>
 
 </resources>

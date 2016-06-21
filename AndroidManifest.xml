@@ -36,6 +36,15 @@
             android:name=".Inicio"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        
+        <activity
+            android:name=".Estadisticas"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        
+        
+        
+        
     </application>
 
 </manifest>
