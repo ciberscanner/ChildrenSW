@@ -25,6 +25,7 @@
         android:layout_marginRight="25dp"
         android:layout_marginTop="25dp"
         android:contentDescription="@string/informacion"
+        android:onClick="gotoInformacion"
         android:src="@drawable/button_i" />
 
     <LinearLayout

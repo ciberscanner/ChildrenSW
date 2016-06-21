@@ -52,58 +52,71 @@ public final class R {
         public static final int title_statistics=0x7f020026;
     }
     public static final class id {
+        public static final int dialogButtonOK=0x7f06001a;
         public static final int editText1=0x7f060005;
         public static final int imageView1=0x7f060001;
         public static final int imageView2=0x7f06000b;
         public static final int imageView3=0x7f060006;
-        public static final int imageView4=0x7f06000e;
-        public static final int imageView5=0x7f06000d;
-        public static final int imageView6=0x7f06000c;
-        public static final int imageView7=0x7f06000f;
+        public static final int imageView4=0x7f06000f;
+        public static final int imageView5=0x7f06000e;
+        public static final int imageView6=0x7f06000d;
+        public static final int imageView7=0x7f060010;
         public static final int imgaporte=0x7f06000a;
-        public static final int imgback=0x7f060014;
+        public static final int imgback=0x7f060016;
         public static final int imgciudad=0x7f060007;
         public static final int imgmundo=0x7f060009;
         public static final int imgpais=0x7f060008;
         public static final int include1=0x7f060000;
+        public static final int listView1=0x7f060011;
+        public static final int m_description=0x7f060019;
+        public static final int textAreaScroller=0x7f060018;
         public static final int textView1=0x7f060004;
         public static final int textView2=0x7f060003;
         public static final int textView3=0x7f060002;
-        public static final int txt_regitro=0x7f060013;
-        public static final int txt_title=0x7f060015;
-        public static final int txtemail=0x7f060010;
-        public static final int txtpass1=0x7f060011;
-        public static final int txtpass2=0x7f060012;
+        public static final int textView4=0x7f06000c;
+        public static final int txt_regitro=0x7f060015;
+        public static final int txt_title=0x7f060017;
+        public static final int txtemail=0x7f060012;
+        public static final int txtpass1=0x7f060013;
+        public static final int txtpass2=0x7f060014;
     }
     public static final class layout {
         public static final int activity_denuncia=0x7f030000;
         public static final int activity_estadistica=0x7f030001;
-        public static final int activity_inicio=0x7f030002;
-        public static final int activity_preguntas=0x7f030003;
-        public static final int activity_registro=0x7f030004;
-        public static final int activity_splash=0x7f030005;
-        public static final int cajon=0x7f030006;
-        public static final int header=0x7f030007;
-        public static final int header_blue=0x7f030008;
+        public static final int activity_informacion=0x7f030002;
+        public static final int activity_inicio=0x7f030003;
+        public static final int activity_preguntas=0x7f030004;
+        public static final int activity_registro=0x7f030005;
+        public static final int activity_splash=0x7f030006;
+        public static final int cajon=0x7f030007;
+        public static final int header=0x7f030008;
+        public static final int header_blue=0x7f030009;
+        public static final int message=0x7f03000a;
     }
     public static final class string {
         public static final int Indicadores=0x7f040007;
         public static final int accept=0x7f040010;
         public static final int app_name=0x7f040000;
         public static final int back=0x7f040008;
+        public static final int createby=0x7f040011;
         public static final int denunciar=0x7f040003;
         public static final int desc=0x7f04000c;
         public static final int description=0x7f04000b;
+        public static final int develop=0x7f040012;
         public static final int hello_world=0x7f040001;
         public static final int image=0x7f040002;
         public static final int informacion=0x7f040004;
+        public static final int mycorreo=0x7f040015;
         public static final int myemail=0x7f04000f;
+        public static final int numrepo=0x7f040016;
         public static final int pass=0x7f04000e;
         public static final int preguntas=0x7f040005;
         public static final int registro=0x7f040006;
         public static final int repitpass=0x7f04000d;
         public static final int title=0x7f040009;
         public static final int tomaimagen=0x7f04000a;
+        public static final int version=0x7f040014;
+        public static final int yoo=0x7f040013;
     }
     public static final class style {
         /** 

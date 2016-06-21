@@ -18,5 +18,11 @@
     <string name="pass">contraseña</string>
     <string name="myemail">example@gmail.com</string>
     <string name="accept">Aceptar</string>
+    <string name="createby">Desarrollado por: Diego Fernando</string>
+    <string name="develop">Desarrollado por:</string>
+    <string name="yoo">Diego Serna</string>
+    <string name="version">Version 1.0.0</string>
+    <string name="mycorreo">ciberscanner@gmail.com</string>
+    <string name="numrepo">&lt; Número de reportes ></string>
 
 </resources>
