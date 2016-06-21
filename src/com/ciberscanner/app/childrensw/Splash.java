@@ -24,7 +24,7 @@ public class Splash extends Activity {
 		view=(View)findViewById(R.id.vista);	
 				
 		Random r = new Random();
-		int i1 = r.nextInt(3);
+		int i1 = r.nextInt(5);
 		
 		Log.v("Valor",""+ i1);
 		
@@ -37,6 +37,15 @@ public class Splash extends Activity {
 			break;
 		case 2:
 			view.setBackgroundResource(R.drawable.sale3);
+			break;
+		case 3:
+			view.setBackgroundResource(R.drawable.sale4);
+			break;
+		case 4:
+			view.setBackgroundResource(R.drawable.sale5);
+			break;
+		case 5:
+			view.setBackgroundResource(R.drawable.sale6);
 			break;
 		}
 	}

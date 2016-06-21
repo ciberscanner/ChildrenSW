@@ -610,16 +610,19 @@ containing a value of this type.
         public static final int sale1=0x7f02005e;
         public static final int sale2=0x7f02005f;
         public static final int sale3=0x7f020060;
-        public static final int selector=0x7f020061;
-        public static final int splash2=0x7f020062;
-        public static final int statistics=0x7f020063;
-        public static final int terms_and_conditions=0x7f020064;
-        public static final int text_description=0x7f020065;
-        public static final int text_photo=0x7f020066;
-        public static final int title_account=0x7f020067;
-        public static final int title_register=0x7f020068;
-        public static final int title_report=0x7f020069;
-        public static final int title_statistics=0x7f02006a;
+        public static final int sale4=0x7f020061;
+        public static final int sale5=0x7f020062;
+        public static final int sale6=0x7f020063;
+        public static final int selector=0x7f020064;
+        public static final int splash2=0x7f020065;
+        public static final int statistics=0x7f020066;
+        public static final int terms_and_conditions=0x7f020067;
+        public static final int text_description=0x7f020068;
+        public static final int text_photo=0x7f020069;
+        public static final int title_account=0x7f02006a;
+        public static final int title_register=0x7f02006b;
+        public static final int title_report=0x7f02006c;
+        public static final int title_statistics=0x7f02006d;
     }
     public static final class id {
         public static final int adjust_height=0x7f080007;

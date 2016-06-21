@@ -28,6 +28,7 @@ public class Denuncia extends Activity {
 	public void send(View v){
 		if(mensaje.getText().toString().length()>15){
 			Toast.makeText(getApplicationContext(), "Gracias, su dencuncia ha sido enviada", Toast.LENGTH_LONG).show();
+			finish();
 		}else{
 			mensaje.setError("Este campo es obligatorio y debe tener más de 15 caracteres");
 		}
