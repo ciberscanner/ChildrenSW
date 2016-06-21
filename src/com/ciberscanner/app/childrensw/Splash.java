@@ -9,6 +9,8 @@ import android.os.SystemClock;
 public class Splash extends Activity {
 	//--------------------------------------------------------------------
 	//Variables
+	//--------------------------------------------------------------------
+		//
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

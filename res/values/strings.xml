@@ -4,5 +4,10 @@
     <string name="app_name">ChildrenSW</string>
     <string name="hello_world">Hello world!</string>
     <string name="image"></string>
+    <string name="denunciar">Denunciar</string>
+    <string name="informacion">Información</string>
+    <string name="preguntas">Preguntas</string>
+    <string name="registro">Registro</string>
+    <string name="Indicadores">Indicadores</string>
 
 </resources>

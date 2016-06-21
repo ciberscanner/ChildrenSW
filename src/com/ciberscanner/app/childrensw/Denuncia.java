@@ -3,7 +3,7 @@ package com.ciberscanner.app.childrensw;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class Inicio extends Activity {
+public class Denuncia extends Activity {
 	// --------------------------------------------------------------------
 	// Variables
 	
