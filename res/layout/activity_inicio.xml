@@ -11,6 +11,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:contentDescription="@string/denunciar"
+        android:onClick="gotoDenuncia"
         android:src="@drawable/button_report" />
 
     <ImageView
@@ -38,6 +39,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/preguntas"
+            android:onClick="gotoPreguntas"
             android:src="@drawable/button_questions" />
 
         <ImageView
@@ -49,12 +51,12 @@
             android:layout_marginLeft="2dp"
             android:layout_marginRight="2dp"    />
 
-        
         <ImageView
             android:id="@+id/imageView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:contentDescription="@string/registro"
+            android:onClick="gotoRegistro"
             android:src="@drawable/button_register" />
 
         <ImageView

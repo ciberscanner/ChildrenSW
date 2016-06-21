@@ -1,15 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_red" >
+    android:background="@drawable/bg_red"
+    android:orientation="vertical" 
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
 
     <include
-        android:layout_width="wrap_content"
+        android:id="@+id/include1"
+        android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
         layout="@layout/header" />
 
-</RelativeLayout>
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image"
+        android:src="@drawable/button_photo" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/tomaimagen"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:textSize="22sp"
+        android:text="@string/description"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="@string/desc"
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/description_box"
+        android:ems="10"
+        android:gravity="top"
+        android:lines="8"
+        android:minLines="4"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/denunciar"
+        android:src="@drawable/button_send"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

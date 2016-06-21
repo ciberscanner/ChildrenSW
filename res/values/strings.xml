@@ -11,5 +11,12 @@
     <string name="Indicadores">Indicadores</string>
     <string name="back">Atrás</string>
     <string name="title">Title</string>
+    <string name="tomaimagen">Tome una imagen solo si es seguro</string>
+    <string name="description">Descripción</string>
+    <string name="desc">Sea concreto y asegúrece que la información sea verídica</string>
+    <string name="repitpass">repetir contraseña</string>
+    <string name="pass">contraseña</string>
+    <string name="myemail">example@gmail.com</string>
+    <string name="accept">Aceptar</string>
 
 </resources>
